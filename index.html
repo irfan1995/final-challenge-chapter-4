@@ -16,7 +16,6 @@
             <nav id="navbar-game">
                 <div class="button-back">
                     <a href="#"><img src="assets/button-back.png" alt="button-back" ></a>
-                    <!-- <img class="logo-button-back" src="assets/button-back.png" alt="" > -->
                 </div>
                 <div class="navbar-logo-game">
                     <img class="logo-game" src="assets/navbar-logo-game.png" alt="">
@@ -25,8 +24,60 @@
                     <h1>ROCK PAPER SCISSORS</h1>
                 </div>
             </nav>
+
+            <main class="main-game">
+                <div class="choice">
+                  <div class="choice-text">
+                    <h2>PLAYER</h2>
+                  </div>
+                  <div class="choice-user">
+                    <button class="choice-rock">
+                      <img width="100px" height="100x" src="assets/rock.png" alt="batu" id="player-rock"/>
+                    </button>
+                    <button class="choice-paper">
+                      <img width="100px" height="100px" src="assets/paper.png" alt="kertas" id="player-paper"/>
+                    </button>
+                    <button class="choice-scissors">
+                      <img width="100px" height="100px" src="assets/scissors.png" alt="gunting" id="player-scissors"/>
+                    </button>
+                  </div>
+                </div>
+                
+                <div class="vs-text-result">
+                    <div class="vs-text" id="vsText" >VS</div>
+                    <div class="box-result" id="resultBox" style="visibility: visible">
+                        <p class="text-result" id="resultText">Hasil</p>
+                    </div>
+                </div>
+
+                <div class="choice">
+                  <div class="choice-text">
+                    <h2>COMPUTER</h2>
+                  </div>
+                  <div class="choice-user">
+                    <button class="choice-rock">
+                      <img width="100px" height="100px" src="assets/rock.png" alt="batu" id="computer-rock"/>
+                    </button>
+                    <button class="choice-paper">
+                      <img width="100px" height="100px" src="assets/paper.png" alt="kertas" id="computer-paper"/>
+                    </button>
+                    <button class="choice-scissors">
+                      <img width="100px" height="100px" src="assets/scissors.png" alt="gunting" id="computer-scissors"/>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="refresh">
+                    <button id="refresh" type="reset">
+                      <img width="50px" height="50px" src="assets/refresh.png" alt="refresh-button"/>
+                    </button>
+                  </div>
+            </main>    
         </div>
+        
     </section>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
 </html>
