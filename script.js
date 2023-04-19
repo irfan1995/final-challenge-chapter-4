@@ -112,9 +112,8 @@ function choiceScissors() {
 }
 
 function showResult(result) {
-    
+
     resultBox.style.removeProperty("visibility");
-    
     if (result === "draw") {
         resultText.innerText = "DRAW";
     } else if (result === "computer") {
@@ -126,7 +125,7 @@ function showResult(result) {
 }
 
 function stopChoice(){
-    
+
     playerRock.style.pointerEvents = "none"
     playerPaper.style.pointerEvents = "none"
     playerScissors.style.pointerEvents = "none"
@@ -145,7 +144,7 @@ function refresh() {
     computerRock.style.removeProperty("background-color");
     computerPaper.style.removeProperty("background-color");
     computerScissors.style.removeProperty("background-color");
-
+    
 }
 
 
